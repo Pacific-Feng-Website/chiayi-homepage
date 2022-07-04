@@ -15,28 +15,21 @@ body {
 
 .featured-post {
     height: 400px;
-    margin: 5px 10px 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.featured-post{
-	overflow: hidden;
-	max-width: 1080px;
+article{
+	overflow:hidden;
 }
 
-.featured-post img{
-	object-fit: cover;
-}
-
-.featured-post img:hover{
+.featured-post:hover{
+	opacity: 0.7;
 	transform: scale(1.05);
 	transition: .5s;
 }
-
-
 
 .featured-post h2 {
     bottom: 0;
@@ -44,6 +37,7 @@ body {
     padding: 10px;
     position: absolute;
 }
+
 
 .featured-post h2 span {
     display: inline-block;
@@ -53,4 +47,8 @@ body {
     background: #000;
     background: rgba(0,0,0,0.7);
     padding: 10px;
+}
+
+#blank{
+	margin-bottom: 10px;
 }
